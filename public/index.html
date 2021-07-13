@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RescueMark</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="css/ct-navbar.css" rel="stylesheet" />
+
+    <link rel="icon" href="images/rescueMarkIcon.png">
+
+    <!--     Font Awesome     -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="vis-container">
+        <!-- navbar red -->
+
+        <div id="navbar-red">
+            <nav class="navbar navbar-ct-red" role="navigation">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                     <a class="navbar-brand navbar-brand-logo" href="/">
+                        <div>
+                            <img src="images/rescueMark.png" alt="logo" style="margin-right:10px;width:30px;height:30px"/>R E S C U E M A R K &nbsp;&nbsp;
+                        </div>
+                      </a>
+
+
+                  <div class="logo"></div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <!--- <li>
+                            <a href="#" id="events" data-toggle="dropdown">
+                                <i class="pe-7s-global"></i>
+                                <p>Events</p>
+                            </a>
+                             <ul class="dropdown-menu" role="menu" aria-labelledby="events" style="width:900px;max-height:820px;overflow:auto;">
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                                        <span style="font-size:14px;">Safetown, April 6th, 14:33:00</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/power.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Power Outage in Old Town, Wilson Forest, Scenic Vista, and Broadview</strong><br />
+                                        <span style="font-size:14px;">April 8th, 13:39</span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                                        <span style="font-size:14px;">Downtown, April 8th, 08:44 </span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/not-allowed.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">All Bridges are closed, Emergency only!</strong><br />
+                                        <span style="font-size:14px;">April 8th, 09:00</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Rescue Teams are needed</strong><br />
+                                        <span style="font-size:14px;">April 8th, 09:15 +</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/fire.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Fire Alert!</strong><br />
+                                        <span style="font-size:14px;">April 8th, 10:02</span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Hippocrates Medical Clinic provides an aid station</strong><br />
+                                        <span style="font-size:14px;">April 8th, 10:05</span>
+                                    </a>
+
+                                </li>
+
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Emergency Needs!</strong><br />
+                                        <span style="font-size:14px;">Scenic Vista, April 8th, 10:05</span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Emergency Needs!</strong><br />
+                                        <span style="font-size:14px;">Old Town, April 8th, 10:05</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Water Contamination in Safe Town, Scenic Vista, Broadview, Easton, and Chapparal</strong><br />
+                                        <span style="font-size:14px;">April 8th, 13:00</span>
+                                    </a>
+
+                                </li>
+                                   <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/power.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Emergency Generator failure!</strong><br />
+                                        <span style="font-size:14px;">April 8th, 16:34</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Shelters are available</strong><br />
+                                        <span style="font-size:14px;">Cheddarford & Terrapin Springs, April 8th, 14:35 </span>
+                                    </a>
+
+                                </li>
+                                  <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/blood.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Blood Donation</strong><br />
+                                        <span style="font-size:14px;">Cheddarford & Terrapin Springs, April 8th, 14:38 </span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/search.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Famous Singer Lacki Dasical is missing!</strong><br />
+                                        <span style="font-size:14px;">Downtown, April 8th, 14:30 </span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/danger.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Ommic Elementary School Collapse</strong><br />
+                                        <span style="font-size:14px;">April 8th, 16:07</span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Shelters are available</strong><br />
+                                        <span style="font-size:14px;">All city libraries, April 8th, 17:00 </span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Museum Flood!</strong><br />
+                                        <span style="font-size:14px;">west Parton, April 8th, 23:11</span>
+                                    </a>
+
+                                </li>
+                                  <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Need of Shelter!</strong><br />
+                                        <span style="font-size:14px;">Oldtown, April 8th, 18:38 </span>
+                                    </a>
+
+                                </li>
+                                  <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/search.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Missing People!</strong><br />
+                                        <span style="font-size:14px;">Downtown & Scenic Vista & Broadview, April 8th, 21:11 </span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/food.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Free Food Distribution</strong><br />
+                                        <span style="font-size:14px;">Grocery Stores, April 8th, 21:30</span>
+                                    </a>
+
+                                </li>
+
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">The city needs generators, shovels and trailers to transport animals, worklights</strong><br />
+                                        <span style="font-size:14px;">Downtown, April 9th, 03:00</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/power.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Electrical Power has been restored to %80</strong><br />
+                                        <span style="font-size:14px;">April 9th, 07:00</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                                        <span style="font-size:14px;">April 9th, 14:36</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                                        <span style="font-size:14px;">April 9th, 14:36</span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">The Family Arseistance Center will be established</strong><br />
+                                        <span style="font-size:14px;">The City Health Dept., April 9th, 05:00 </span>
+                                    </a>
+
+                                </li>
+                                 <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Sewer Damage!</strong><br />
+                                        <span style="font-size:14px;">April 9th, 08:35</span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/danger.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">High School Collapse</strong><br />
+                                        <span style="font-size:14px;">April 9th, 15:28</span>
+                                    </a>
+
+                                </li>
+
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Carbon Monoxide Poisoning</strong><br />
+                                        <span style="font-size:14px;">April 10th, 02:30 </span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/food.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Free Pizza at Riggatoni's Pizza!</strong><br />
+                                        <span style="font-size:14px;">Old Town, April 10th, 05:00</span>
+                                    </a>
+
+                                </li>
+                                <li role="presentation">
+
+                                    <a role="menuitem" href="#" style="align-items: center">
+                                        <img src="images/not-allowed.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                                        <strong style="font-size:15px">Schools will be closed in Old Town, Scenic Vista, Broadview, Chapparal, Easton, and Oak Willow</strong><br />
+                                        <span style="font-size:14px;">April 10th, 09:30</span>
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </li>---->
+                        <li id="fatality-block" style="margin-right: 10px;">
+                            <a href="#" class="fatalities">
+                                <span id="confirmedCount" class="label">0</span>
+                                <p>Confirmed fatalities</p>
+                            </a>
+                            <a href="#" class="fatalities">
+                                <span id="unconfirmedCount" class="label">0</span>
+                                <p>Unconfirmed fatalities</p>
+                            </a>
+                        </li>
+                         <li>
+                            <a href="#" id="voicePeople" data-toggle="dropdown">
+                                <i class="pe-7s-volume">
+                                    <span id="voiceCount" class="label">0</span>
+                                </i>
+                                <p>Voice of St.Himark</p>
+                            </a>
+                             <ul class="dropdown-menu" role="menu" id="voiceBox" aria-labelledby="voicePeople" style="width:800px;max-height:820px;overflow:auto;">
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="#" id="messages" data-toggle="dropdown">
+                                <i class="pe-7s-mail">
+                                    <span id="messageCount" class="label">0</span>
+                                </i>
+                                <p>Messages</p>
+                            </a>
+                             <ul class="dropdown-menu" role="menu" id="messageBox" aria-labelledby="messages" style="width:800px;max-height:820px;overflow:auto;">
+                            </ul>
+
+                        </li>
+                   </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+
+        </div><!--  end navbar -->
+      <div id="panel">
+        <!--
+        <div class="top">
+            <div class="modes">
+                <div class="mode active" onclick="activateTab(this, 'words')">Words</div>
+                <div class="mode" onclick="activateTab(this, 'resources')">Topics</div>
+                <div class="mode" onclick="activateTab(this, 'chord')">Chordchart</div>
+            </div>
+        </div>-->
+
+        <div class="resources tab">
+            <div class="subtitle">Need for resources</div>
+            <div class="resources_buttons">
+                <div class="resource common active" onclick="resourceMode('common')">All</div>
+                <div class="resource food" onclick="resourceMode('food')">Food</div>
+                <div class="resource gas" onclick="resourceMode('gas')">Gas</div>
+                <div class="resource medical" onclick="resourceMode('medical')">Medical</div>
+                <div class="resource nuclear" onclick="resourceMode('nuclear')">Nuclear</div>
+                <div class="resource power" onclick="resourceMode('power')">Power</div>
+                <div class="resource rescue" onclick="resourceMode('rescue')">Rescue</div>
+                <div class="resource transportation" onclick="resourceMode('transportation')">Transport</div>
+                <div class="resource sewer" onclick="resourceMode('sewer')"> Sewer</div>
+                <div class="resource shelter" onclick="resourceMode('shelter')">Shelter</div>
+                <div class="resource volunteers" onclick="resourceMode('volunteers')">Volunteers</div>
+            </div>
+            <div id="sunburst">
+                <div class="info"></div>
+            </div>
+        </div>
+        <div class="words tab active">
+            <div id="chart"></div>
+            <div class="cloud">
+                <div class='subtitle'>Trend Topics</div>
+                <div id="wordcloud">
+                </div>
+                <div id="hashtagcloud">
+                </div>
+            </div>
+        </div>
+
+        <!--
+        <div class="chord tab">
+            <div class="radarChart" style="display: inline-flex;"></div>
+            <div id="chordchart"></div>
+        </div>-->
+      </div>
+      <div id="map">
+        <div class="scale-map show">
+            <div class="title">Degree of damage</div>
+            <div class="colors all"></div>
+            <div class="values">
+                <div class="start">low</div>
+                <div class="end">high</div>
+            </div>
+        </div>
+        <div id='chords'></div>
+
+      </div>
+      <div id="events-panel" style='overflow-y: auto;'>
+        <h3>Events</h3>
+        <div class="event-item" alt="2020-04-06T14:00:00" style='align-items: center'>
+                <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                <span style="font-size:14px;">Safetown, April 6th, 14:33</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T08:00:00" style='align-items: center'>
+                <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                <span style="font-size:14px;">Downtown, April 8th, 08:44 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T09:00:00" style='align-items: center'>
+                <img src="images/not-allowed.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">All Bridges are closed, Emergency only!</strong><br />
+                <span style="font-size:14px;">April 8th, 09:00</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T09:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Rescue Teams are needed</strong><br />
+                <span style="font-size:14px;">April 8th, 09:15 +</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T10:00:00" style='align-items: center'>
+                <img src="images/fire.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Fire Alert!</strong><br />
+                <span style="font-size:14px;">April 8th, 10:02</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T10:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Hippocrates Medical Clinic provides an aid station</strong><br />
+                <span style="font-size:14px;">April 8th, 10:05</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T10:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Emergency Needs!</strong><br />
+                <span style="font-size:14px;">Scenic Vista, April 8th, 10:05</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T10:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Emergency Needs!</strong><br />
+                <span style="font-size:14px;">Old Town, April 8th, 10:05</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T13:00:00" style='align-items: center'>
+                <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Water Contamination in Safe Town, Scenic Vista, Broadview, Easton, and Chapparal</strong><br />
+                <span style="font-size:14px;">April 8th, 13:00</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T13:00:00" style='align-items: center'>
+                <img src="images/power.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Power Outage in Old Town, Wilson Forest, Scenic Vista, and Broadview</strong><br />
+                <span style="font-size:14px;">April 8th, 13:39</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T14:00:00" style='align-items: center'>
+                <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Shelters are available</strong><br />
+                <span style="font-size:14px;">Cheddarford & Terrapin Springs, April 8th, 14:35 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T14:00:00" style='align-items: center'>
+                <img src="images/blood.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Blood Donation</strong><br />
+                <span style="font-size:14px;">Cheddarford & Terrapin Springs, April 8th, 14:38 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T14:00:00" style='align-items: center'>
+                <img src="images/search.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Famous Singer Lacki Dasical is missing!</strong><br />
+                <span style="font-size:14px;">Downtown, April 8th, 14:30 </span>
+
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T16:00:00" style='align-items: center'>
+               <img src="images/danger.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Ommic Elementary School Collapse</strong><br />
+                 <span style="font-size:14px;">April 8th, 16:07</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T17:00:00" style='align-items: center'>
+               <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Shelters are available</strong><br />
+                <span style="font-size:14px;">All city libraries, April 8th, 17:00 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T18:00:00" style='align-items: center'>
+               <img src="images/home-icon.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Need of Shelter!</strong><br />
+                <span style="font-size:14px;">Oldtown, April 8th, 18:38 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T21:00:00" style='align-items: center'>
+               <img src="images/search.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Missing People!</strong><br />
+                <span style="font-size:14px;">Downtown & Scenic Vista & Broadview, April 8th, 21:11 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T21:00:00" style='align-items: center'>
+               <img src="images/food.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Free Food Distribution</strong><br />
+                <span style="font-size:14px;">Grocery Stores, April 8th, 21:30</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-08T23:00:00" style='align-items: center'>
+               <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Museum Flood!</strong><br />
+                <span style="font-size:14px;">west Parton, April 8th, 23:11</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T03:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">The city needs generators, shovels and trailers to transport animals, worklights</strong><br />
+                <span style="font-size:14px;">Downtown, April 9th, 03:00</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T05:00:00" style='align-items: center'>
+                <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">The Family Arseistance Center will be established</strong><br />
+                <span style="font-size:14px;">The City Health Dept., April 9th, 05:00 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T07:00:00" style='align-items: center'>
+                <img src="images/power.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Electrical Power has been restored to %80</strong><br />
+                <span style="font-size:14px;">April 9th, 07:00</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T08:00:00" style='align-items: center'>
+                <img src="images/water.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Sewer Damage!</strong><br />
+                <span style="font-size:14px;">April 9th, 08:35</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T14:00:00" style='align-items: center'>
+                <img src="images/earth.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Earthquake Alert!</strong><br />
+                <span style="font-size:14px;">April 9th, 14:36</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-09T15:00:00" style='align-items: center'>
+               <img src="images/danger.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">High School Collapse</strong><br />
+                <span style="font-size:14px;">April 9th, 15:28</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-10T02:00:00" style='align-items: center'>
+               <img src="images/emergency.svg" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Carbon Monoxide Poisoning</strong><br />
+                <span style="font-size:14px;">April 10th, 02:30 </span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-10T05:00:00" style='align-items: center'>
+              <img src="images/food.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Free Pizza at Riggatoni's Pizza!</strong><br />
+                <span style="font-size:14px;">Old Town, April 10th, 05:00</span>
+        </div>
+        <br>
+        <div class="event-item" alt="2020-04-10T07:00:00" style='align-items: center'>
+               <img src="images/not-allowed.png" alt="logo" style="width:30px;height:30px;float:left;margin-right: 10px;"/>
+                <strong style="font-size:15px">Schools will be closed in Old Town, Scenic Vista, Broadview, Chapparal, Easton, and Oak Willow</strong><br />
+                <span style="font-size:14px;">April 10th, 09:30</span>
+        </div>
+
+
+      </div>
+    </div>
+    <div id="time">
+    	<div class="time-range">
+        <div class="time-title">April 6 00:00 - April 10 12:00</div>
+        <div class="time-legend"><div id="time-symbol-earthquake"></div>Earthquake</div>
+        <div class="time-legend"><div id="time-symbol-change"></div>Condition change</div>
+        <div class="time-legend plusfive"><!--<div id="time-symbol-plus-five"></div>-->+ 5 hours</div>
+        <div class="time-legend plusthirty"><!--<div id="time-symbol-plus-thirty"></div>-->+ 30 hours</div>
+      </div>
+
+        <!--<div class="title">Time Range</div>-->
+    </div>
+
+
+    <script src="js/ct-navbar.js"></script>
+    <script type="text/javascript" src="lib/d3.js"></script>
+    <script type="text/javascript" src="lib/d3.layout.cloud.js"></script>
+    <!-- Library for sunburst -->
+    <script type='text/javascript' src='js/sunburst-chart.js'></script>
+    <script type='text/javascript' src='js/radarchart.js'></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/wordcloud.js"></script>
+</body>
+</html>

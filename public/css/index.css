@@ -1,0 +1,808 @@
+.line {
+    fill: steelblue;
+    stroke-width: 2px;
+    -webkit-clip-path: url(#clip);
+            clip-path: url(#clip);
+}
+.line-temp {
+    stroke: steelblue;
+    fill: steelblue;
+}
+.line-rain {
+    stroke: blue;
+}
+
+#time .line {
+    fill: url(#area-gradient);
+    stroke-width: 0px;
+    -webkit-clip-path: url(#clip);
+            clip-path: url(#clip);
+}
+
+.interaction-rect {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+}
+
+.tooltip {
+    /* TASK: Define css rules for the tooltip div
+        Set reasonable position, width, height
+        Design a custom tooltip using borders, fonts, padddings, colors
+    */
+
+    position: absolute;
+    padding: 4px 12px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 7px;
+    pointer-events: none;
+    text-align: center;
+    display: none;
+}
+
+#map {
+    text-align: right;
+    width: calc(100% - 700px);
+    height: calc(100% - 170px);
+    z-index: 2;
+    left: 400px;
+    top: 55px;
+    position: fixed;
+    display: inline-block;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    overflow: auto;
+}
+
+#events-panel {
+    width: 300px;
+    height: calc(100% - 170px);
+    right: 0;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    top: 55px;
+    position: fixed;
+}
+
+#events-panel > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px !important;
+}
+
+#map > svg {
+
+}
+
+#map.scrolled {
+    overflow: scroll;
+}
+
+
+#map svg polygon:hover {
+    /* fill: #c3d8ed !important; */
+    opacity: 0.6;
+}
+
+#map svg polygon.active {
+    /* fill: steelblue; */
+}
+
+#map svg polygon.chosen {
+    /* fill: steelblue !important; */
+}
+
+#map svg polygon {
+    cursor: pointer;
+    transition: opacity 0.3s ease-in, fill 0.2s linear;
+}
+
+#map svg polygon:not(.active) {
+    opacity: 0.05;
+}
+
+#map svg g.infra polygon {
+    opacity: 0.05;
+    fill: grey !important;
+}
+
+#map .district_label {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: opacity 0.3s linear, fill 0.2s linear;
+    fill: #000;
+}
+
+#map .district_label:not(.active) {
+    opacity: 0.03;
+}
+
+#map .district_label.white {
+    fill: #fff;
+}
+
+#map .label {
+    transition: opacity 0.3s linear;
+}
+
+#map .label:not(.active) {
+    opacity: 0.03;
+}
+
+#map circle {
+    transition: opacity 0.3s linear;
+}
+
+#map circle:not(.active) {
+    opacity: 0.03;
+}
+
+#time {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ddd;
+}
+
+#time .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#time svg {
+    width: 100%;
+    display: block;
+}
+
+#panel {
+    position: absolute;
+    top: 55px;
+    height: calc(100% - 170px);
+    left: 0;
+    display: inline-block;
+    width: 400px;
+   /* overflow-y: auto; */
+    overflow-x: auto;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+#panel .words {
+    /*width: 660px !important;*/
+}
+
+#panel .top {
+    padding: 20px;
+}
+
+#panel .subtitle {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#panel .tab {
+    background: #fff;
+    width: 100%;
+}
+
+#panel .tab.active {
+    display: block;
+    z-index: 2;
+}
+
+#panel .cloud {
+    /* margin-bottom: 50px; */
+}
+
+.legend {
+    font-family: 'Raleway', sans-serif;
+     fill: #333333;
+}
+
+#chart {
+    display: none;
+}
+
+#panel .title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#panel .modes {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#panel .modes .mode {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    background: steelblue;
+    margin: 0 2px;
+}
+
+#panel .modes .mode.active {
+    background: rgb(51, 95, 132);
+}
+
+#panel .resources_buttons {
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+#panel .resources_buttons .resource {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background: #fff;
+    margin: 2px;
+    cursor: pointer;
+    border: 3px solid #111;
+}
+
+
+#panel .resources_buttons .resource.common {
+    border-color: #111;
+}
+#panel .resources_buttons .resource.food {
+    border-color: #469990;
+}
+#panel .resources_buttons .resource.gas {
+    border-color: #FF6666;
+}
+#panel .resources_buttons .resource.medical {
+    border-color: #ff2019;
+}
+#panel .resources_buttons .resource.nuclear {
+    border-color: #ffd719;
+}
+#panel .resources_buttons .resource.power {
+    border-color: #78cd2d;
+}
+#panel .resources_buttons .resource.rescue {
+    border-color: #EE7417;
+}
+#panel .resources_buttons .resource.transportation {
+    border-color: #727272;
+}
+#panel .resources_buttons .resource.sewer {
+    border-color: #67a9d7;
+}
+#panel .resources_buttons .resource.shelter {
+    border-color: #b966b9;
+}
+#panel .resources_buttons .resource.volunteers {
+    border-color: #964514;
+}
+
+
+#panel .resources_buttons .resource.common.active {
+    background: #111;
+    color: #fff;
+}
+#panel .resources_buttons .resource.food.active {
+    background: #469990;
+}
+#panel .resources_buttons .resource.gas.active {
+    background: #FF6666;
+}
+#panel .resources_buttons .resource.medical.active {
+    background: #ff2019;
+    color: #fff;
+}
+#panel .resources_buttons .resource.nuclear.active {
+    background: #ffd719;
+}
+#panel .resources_buttons .resource.power.active {
+    background: #78cd2d;
+}
+#panel .resources_buttons .resource.rescue.active {
+    background: #EE7417;
+}
+#panel .resources_buttons .resource.transportation.active {
+    background: #727272;
+    color: #fff;
+}
+#panel .resources_buttons .resource.sewer.active {
+    background: #67a9d7;
+}
+#panel .resources_buttons .resource.shelter.active {
+    background: #b966b9;
+    color: #fff;
+}
+#panel .resources_buttons .resource.volunteers.active {
+    background: #964514;
+    color: #fff;
+}
+
+
+#map img {
+    width: 240px;
+    position: fixed;
+    bottom: 115px;
+    left: 35%;
+    background: #fff;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 12px;
+    display: none;
+}
+
+#map img.show {
+    display: block;
+}
+
+#sunburst {
+    margin-left: 20px;
+    position: relative;
+    min-height: 360px;
+    width: 350px;
+}
+
+#sunburst .info {
+    left: 90px;
+    right: 90px;
+    font-size: 40px;
+    margin-top: -30px;
+    text-align: center;
+    font-weight: 600;
+    top: 50%;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+#sunburst .slice {
+    transition: opacity 0.2 linear;
+}
+
+#sunburst svg .slice.hide {
+    opacity: 0.2 !important;
+    display: block !important;
+}
+
+.sunburst-tooltip {
+    z-index: 1000;
+}
+
+#time .time-range div, #time .time-range img {
+    display: inline-block;
+}
+
+#time .time-range .time-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    font-family: sans-serif;
+    margin-left: 19px;
+    margin-right: 30px;
+}
+
+#time .time-range .time-legend {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+#time-symbol-earthquake{
+  width: 12px;
+  height: 12px;
+  background: #e30000;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+#time-symbol-change{
+  width: 12px;
+  height: 12px;
+  background: #036ec9;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/*
+#time-symbol-plus-five{
+  width: 12px;
+  height: 12px;
+  background: grey;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+*/
+
+#time-symbol-plus-five {
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    border: 1px dashed gray;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#time-symbol-plus-thirty {
+    width: 1px;
+    height: 14px;
+    background: #fff;
+    border: 1px dashed #111;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.time-range {
+    position: relative;
+}
+
+.plusfive, .plusthirty {
+    position: absolute;
+}
+
+.plusfive {
+    left: 500px;
+}
+
+.plusthirty {
+    left: 570px;
+}
+/*
+#time-symbol-plus-thirty{
+  width: 12px;
+  height: 12px;
+  background: #444444;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+*/
+
+/* Chordchart locations */
+
+#chords {
+    top: -40px;
+    left: -30px;
+}
+
+#chords > svg {
+    position: absolute;
+}
+
+#PalaceHills{
+    top: 0;
+    left: 0;
+}
+
+#Northwest{
+    top: 0;
+    left: 17%;
+}
+
+#OldTown{
+    top: 0;
+    left: 34%;
+}
+
+#SafeTown{
+    top: 0;
+    left: 51%;
+}
+
+#EastParton{
+   top: 0;
+    left: 68%;
+}
+
+#Easton{
+   top: 0%;
+   left: 85%;
+}
+
+#Cheddarford{
+   top: 17%;
+   left: 85%;
+}
+
+
+
+#PepperMill{
+    top: 34%;
+    left: 85%;
+}
+
+#WilsonForest{
+    top: 51%;
+    left: 85%;
+}
+
+#ScenicVista{
+    top: 68%;
+    left: 85%;
+}
+
+
+
+
+#Downtown{
+    top: 20%;
+    left: 0;
+}
+
+#Southwest{
+    top: 40%;
+    left: 0;
+}
+
+#Weston{
+   top: 60%;
+    left: 0;
+}
+
+#Southton{
+   top: 82%;
+    left: 0;
+}
+
+#WestParton{
+   top: 82%;
+    left: 15%;
+}
+
+#OakWillow{
+   top: 82%;
+    left: 30%;
+}
+
+#Broadview{
+    top: 82%;
+    left: 45%;
+}
+
+#Chapparal{
+   top: 82%;
+    left: 60%;
+}
+
+#TerrapinSprings{
+    top: 82%;
+    left: 75%;
+}
+
+#chordLegend{
+    margin-left:600px;
+}
+
+#mapLegend{
+    margin-bottom:350px;
+    margin-left:100px;
+}
+
+#chords {
+    position: absolute;
+    z-index: -1;
+}
+
+/********** NAVBAR *************/
+.fa-heart{
+    color: #F74933;
+}
+
+.space-100{
+    height: 100px;
+    display: block;
+}
+
+pre.prettyprint{
+    background-color: #ffffff;
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.atv, .str{
+    color: #05AE0E;
+}
+
+.tag, .pln, .kwd{
+    color: #3472F7;
+}
+
+.atn{
+    color: #2C93FF;
+}
+
+.pln{
+    color: #333;
+}
+
+.com{
+    color: #999;
+}
+
+.navbar .navbar-nav [class^="pe"] {
+    font-size: 20px !important;
+}
+
+.navbar .navbar-nav p {
+    margin-top: 0 !important;
+    line-height: 0.5 !important;
+    margin: 0px 0 0 !important;
+    font-size: 13px !important;
+}
+
+.navbar {
+    border-radius: 0 !important;
+    padding: 0 15px !important;
+}
+
+.navbar .navbar-brand {
+    margin-bottom: 0 !important;
+}
+
+#wordcloud, #hashtagcloud {
+    display: inline-block;
+}
+
+.scale-map {
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 180px;
+    display: none;
+    text-align: left;
+}
+
+.scale-map .title {
+    margin-bottom: 3px;
+}
+
+.scale-map.show {
+    display: block;
+}
+
+.scale-map .colors {
+    width: 115px;
+    height: 12px;
+}
+
+.scale-map .colors.all {
+    background: linear-gradient(to left, #9e212c 0%, #efa569 25%, #f9f6b6 50%, #a3cf77 75%, #2e6a3e 100%);
+}
+.scale-map .colors.nuclear {
+    background: linear-gradient(to right, hsl(46, 90%, 90%) 0%, hsl(46, 90%, 50%) 50%, hsl(46, 90%, 15%) 100%);
+}
+.scale-map .colors.sewer {
+    background: linear-gradient(to right, hsl(220, 70%, 90%) 0%, hsl(220, 70%, 50%) 50%, hsl(220, 70%, 15%) 100%);
+}
+.scale-map .colors.gas {
+    background: linear-gradient(to right, hsl(345, 70%, 90%) 0%, hsl(345, 70%, 50%) 50%, hsl(345, 70%, 15%) 100%);
+}
+.scale-map .colors.transportation {
+    background: linear-gradient(to right, hsl(0, 7%, 90%) 0%, hsl(0, 7%, 50%) 50%, hsl(0, 7%, 15%) 100%);
+}
+.scale-map .colors.power {
+    background: linear-gradient(to right, hsl(120, 60%, 90%) 0%, hsl(120, 60%, 50%) 50%, hsl(120, 60%, 15%) 100%);
+}
+.scale-map .colors.medical {
+    background: linear-gradient(to right, hsl(0, 90%, 90%) 0%, hsl(0, 90%, 50%) 50%, hsl(0, 90%, 15%) 100%);
+}
+.scale-map .colors.shelter {
+    background: linear-gradient(to right, hsl(282, 90%, 90%) 0%, hsl(282, 90%, 50%) 50%, hsl(282, 90%, 15%) 100%);
+}
+.scale-map .colors.volunteers {
+    background: linear-gradient(to right, hsl(18, 55%, 90%) 0%, hsl(18, 55%, 50%) 50%, hsl(18, 55%, 15%) 100%);
+}
+.scale-map .colors.rescue {
+    background: linear-gradient(to right, hsl(18, 90%, 90%) 0%, hsl(18, 90%, 50%) 50%, hsl(18, 90%, 15%) 100%);
+}
+.scale-map .colors.food {
+    background: linear-gradient(to right, hsl(173, 67%, 90%) 0%, hsl(173, 67%, 50%) 50%, hsl(173, 67%, 15%) 100%);
+}
+
+.scale-map .values {
+    text-align: left;
+    font-size: 0;
+}
+
+.scale-map .values > div {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    font-size: 10px;
+}
+
+.scale-map .values > div:first-child {
+    text-align: left;
+}
+
+.scale-map .values > div:last-child {
+    text-align: right;
+}
+
+
+.navbar:not(.navbar-transparent).navbar-ct-red {
+    background-color: #e30000 !important;
+}
+
+/* [class*="navbar-ct"] .label {
+    color: steelblue !important;
+} */
+
+.event-item:hover{
+    background-color: #E8E8E8;
+}
+
+.navbar-brand {
+    height: 33px !important;
+}
+
+.sunburst-viz text .text-stroke {
+    font-size: 8px !important;
+}
+.sunburst-viz text .text-contour {
+    font-size: 8px !important;
+}
+
+
+
+.event-item {
+    cursor: pointer;
+    padding: 5px;
+    margin-top: -14px;
+    margin-left: -5px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.event-item.active {
+    border-color: red;
+    background: rgba(255, 0, 0, 0.14);
+}
+
+.event-item:first-of-type {
+    margin-top: 10px !important;
+}
+
+#fatality-block {
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+    padding-top: 4px;
+    text-align: left;
+}
+
+.navbar-nav > li > a.fatalities {
+    margin: 0 !important;
+    min-width: 80px;
+    text-align: left !important;
+    padding: 3px 7px !important;
+}
+
+.navbar a.fatalities .label {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a.fatalities p {
+    display: inline-block;
+}
+
+.navbar a.fatalities .label {
+    top: -1px !important;
+}

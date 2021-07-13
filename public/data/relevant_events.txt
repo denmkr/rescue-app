@@ -1,0 +1,198 @@
+
+SITUATION BEFORE
+
+"2020-04-06 08:04:00","Downtown","TVHostBrad","Enjoy tihshis beautihsiful sunny day. #blessedtihsown"
+
+"2020-04-06 19:00:00","Downtown","Emergency Manager","@TerrapinSpringsSchool Our City was just awarded 2 million dollars to study masonry buildings. Our city has hundreds of brick buildings that will not withstand an earthquake. With this funding we will put together a proposal to bring these structures up to code."
+"2020-04-08 07:04:00","Downtown","TVHostBrad","The mayor is saying we are prepared for any emergency, and the town has spend enough money on preparing. Funny how your local government spends a lot of money on unimportant events, but our safety is not important to them. #needchange "
+
+EARTHQUAKE
+
+"2020-04-06 14:33:00","Safe Town","Earthquake Prediction Center","We jsutust recorded a Northwest.Old Town mild earthquake jsutust northeast of St.Himark town. Did you feel it? Probably no damage #HateDidWonder"
+
+"2020-04-06 14:36:00","Safe Town","AlwaysSafePowerCompany","Hi all, just letting folks know that weíre aware of the earthquake that just occurred and acting quickly here at Always Safe Power Company!"
+
+"2020-04-06 14:40:00","Downtown","TVHostBrad","This is Brad, reporting from our local news station. We are getting calls from  Safe Town. There is report of a earthquake "
+
+"2020-04-08 08:44:00","Downtown","TVHostBrad","Our town has experienced the worst earthquake in its history. #safethepeople"
+
+
+
+SHELTER
+
+"2020-04-08 14:35:00","Cheddarford","TerrapinSpringsSchools"," High School Gym is available for shelter.  But please don't mess with the rodeo equipment."
+
+"2020-04-08 14:38:00","Cheddarford","TerrapinSpringsSchools"," PLEASE COME TO TERRAPIN SPRINGS HIGH SCHOOL TO DONATE BLOOD.  Auditorium will be open beginning in one hour."
+"2020-04-08 14:42:00","Cheddarford","TerrapinSpringsSchool"," we would be happy to weldome you to our shelter. But bring pillows if you have them"
+
+"2020-04-08 17:00:00","<Location with-held due to contract>","CuriousWBanana73","City EOC: All City libaries will be open as temporary shelters."
+
+"2020-04-09 10:30:00","Downtown","HimarkParks","The Mayor has decreed under an emergency proclamation that people may camp in the parks"
+
+"2020-04-10 02:00:00","<Location with-held due to contract>","TallMayesHouse2003","The rainstorm will flood the campers in the parks. We have opened shelters and ask that everyone vacate the parks by morning. Shelter locations are posted at each park. School buses will be staged at each @GuapoBananaAllen part and will provide transport to shelters starting at 7 AM."
+
+NEED OF SHELTER
+
+"2020-04-08 18:38:00","Downtown","TVHostBrad","300 hundred people are homeless in #Oldtown."
+
+
+RESOURCE DISTRIBUTION / HELP
+
+"2020-04-08 10:05:00","Broadview","WileyWadeBread","KRAK TV: cleaner Hippocrates Medical Clinic has established an aid station in their parking lot for injured victims who are not critical. St. Himark Ambulance Service is working with the Hippocrates team. 'This saves us from getting stuck in traffic and takes the load off of the hospitals,' said one of the medics. @CuriousKatherynBanana"
+
+"2020-04-10 09:00:00","<Location with-held due to contract>","St Himark Human Resources Dept.","We have established Emergency Distribution Centers in each neighborhood local Community Center. Anyone can go there to obtain bottled water, nutricious food, and blankets #Center"
+
+
+"2020-04-09 05:00:00","Downtown","KRAKTV","The City Health Department will establish a Family arseistance Center shortly. This is where you can go to report someone missing."
+
+SCHOOL DAMAGED
+
+"2020-04-08 16:07:00","West Parton","FamousPlateRobert","My grandma worked in the Elementary School that collapsed and isn't answering their phone. Tell them to call me if you see them!"
+
+"2020-04-08 19:05:00","Broadview","KevinAttentativeSmith","We have several collapsed buildings that may have people trapped. We need backhoes, cranes, picks, shovels, and portable lights. Bring it to Ommic Elementry School. Thanks for your support. #HateBringWonder"
+
+"2020-04-09 15:28:00","Southwest","Joseph4Wilson","My friend worked in the High School that collapsed and isn't answering their phone. Tell them to call me if you see them!"
+
+SCHOOLS CLOSED
+
+"2020-04-10 05:00:00","Cheddarford","Mommy2Four","When are schools going to reopen? I cant stand in line to fill out paperwork, get supplies and repair my house and watch my kids at the same time."
+
+"2020-04-10 09:30:00","<Location with-held due to contract>","AttentativeJLight","Superintendant: Schools will remain closed in the following nieghborhoods 3, 8, 9, 10, 14, 17. We need more support from the City before we can begin to consider reopening."
+
+
+ACCIDENTS / NEED OF HELP
+
+"2020-04-08 10:05:00","Scenic Vista","FamousYelvertonCar","KRAK TV: 3 blocks of waterfront property at Entitled Acres housing development have slid into the water. All that is left is the golf course. No idea how many houses were lost! Major rescue operation underway."
+
+"2020-04-08 12:01:00","Weston","TallJBanana","Unlicensed teen driver among 2 injured in school bus crash in anything - How Many he Have an Plan?"
+
+"2020-04-08 13:32:00","Downtown","TVHostBrad","Civilians are seeing buildings COLLAPSING  from there windows. I see fire from north-east of the town. The town is in a bad shape, and people can't get help."
+
+"2020-04-08 13:40:00","Old Town","OldTownBlues","Send ambulances to Nrth st apt buildings. people cant get through to the emergency number"
+
+"2020-04-08 14:30:00","Downtown","KRAKTV","We are tracking rumors that the famous singer Lacki Dasical is missing and possibly buried in the rubble of her hotel. KRAK TV will host a half hour special; Celebrities and Disasters."
+    "2020-04-08 14:37:00","Downtown","TVHostBrad","@WilliamTheThird Lacki Dasical is dead. Pray for her soul #deceased"
+	"2020-04-09 12:00:00","Downtown","KRAKTV","Lacki Dasical made appearance at a disaster relief shelter today with her entourage in tow. Fans are relieved that she is safe"
+
+"2020-04-08 21:11:00","Scenic Vista","ObnoxiousDebraIcecream","My father is still missing! Why have they stopped digging people out of the ruble?!"
+"2020-04-08 21:43:00","Broadview","JoanFamousBland","My boss is still missing! Why have they stopped digging people out of the ruble?!"
+"2020-04-08 22:20:00","Downtown","CuriousBallBread2019","My uncle is still missing! Why have they stopped digging people out of the ruble?!"
+
+"2020-04-08 23:36:00","Scenic Vista","ChloeJohnson","I just heard from the president of the neighborhood arseociation and she said that the so called rescue workers have barely done a thing! Almost two thirds of the houses are significantly damaged, and near a third have collapsed!"
+
+"2020-04-09 02:08:00","Downtown","TVHostBrad","Retweet me if you want the emergency team to go to your neighborhood."
+     "2020-04-09 02:34:00","Terrapin Springs","CleverRHouse","re: Retweet me if you want the emergency team to go to your neighborhood."
+	 "2020-04-09 02:47:00","Oak Willow","GuapoTPlate60","re: Retweet me if you want the emergency team to go to your neighborhood."
+	 "2020-04-09 02:51:00","Southwest","FisherHorse71","re: Retweet me if you want the emergency team to go to your neighborhood."
+	 "2020-04-09 03:01:00","Southwest","AlexFish45","re: Retweet me if you want the emergency team to go to your neighborhood."
+	 
+
+"2020-04-09 03:00:00","Downtown","Emergency Manager","The city needs generators, shovels, trailers to transport animals, worklights. Please text if you can help"
+
+"2020-04-09 03:15:00","Downtown","TVHostBrad","Retweeting @ChloeJohnson help needed in Scenic Vista @TwentyOne"
+
+"2020-04-09 04:36:00","Downtown","TVHostBrad","@rescue_team HELP NEEDED IN OLD TOWN. #HateIN"
+"2020-04-09 11:48:00","Weston","CleverBowlRichard_Miller","My friend is still missing! Why have they stopped digging people out of the ruble?!"
+
+"2020-04-10 11:47:00","Chapparal","Chappie","We need help. The old theadnter in our adnreadn colladnpsed adnnd we adnre trying to rescue people who adnre tradnpped. The rescue teadnms adnre spreadnd thin. We need people, shovels, tadnrps adnnd portadnble generadntors adnnd lights. Let us know whadnt you cadnn provide."
+
+
+TRANSPORTATION
+
+"2020-04-08 09:00:00","<Location with-held due to contract>","SmartCarRoy","Dept of Transportation: As a precaution, we have closed all bridges and the forest viaduct for inspection."
+"2020-04-08 09:30:00","<Location with-held due to contract>","FearsJohnBird","Department of Transportation: To support emergency operations we have opened up Bridge A for emergency vehicles only for now"
+
+"2020-04-09 08:00:00","<Location with-held due to contract>","FuriousPlateJean_Lanier","KRAK TV: St. Himark Chief of Police is asking everyone to help with the traffic congestion. 'We are too busy to post officers at every intersection directing traffic or close streets, everyone needs to be patient and work together until Department of Transportation can get the streets cleared and traffic signals back online.' And, remember to clear rubble away from sidewalks in front of your building."
+
+WATER / SEWER
+
+"2020-04-08 13:00:00","Scenic Vista","BusyHCouch2001","Department of Health and the St Himark Water and Sewer Department: Broken water and sewer pipes create of risk of contaminated drinking water. The following neighborhoods should boil their water: 4, 8,9,10,14."
+
+"2020-04-08 13:05:00","Downtown","TVHostBrad","Water is contaminated. Serious reactions reported in the following neighborhoods Old Town,Safe Town,Scenic Vista,Broadview,Chapparal"
+"2020-04-08 17:28:00","Downtown","TVHostBrad","reporting sewer breakout in neighborhoods Old Town, Safe Town, Scenic Vista, Broadview. Take cover!"
+
+"2020-04-08 18:32:00","Southton","GuapoMcguinnessBanana","KRAK TV: This is one of the many housing developments in neighborhood 3 that has flooded due to a ruptured 30 inch watermain. 'We have the water shutoff now but it will be days before the water drains away' said  a St. Himark Water Department spokesperson. Officals are arranging shelter for upwards of 300 people. "
+
+"2020-04-08 23:11:00","Downtown","TVHostBrad","Museum flood inn West Parton."
+
+"2020-04-09 08:35:00","<Location with-held due to contract>","SmartRBowl","Department of Health and the St. Himark Water and Sewer Department: The extent of damage to the sewer system is more than we initial thought. All St. Himark residents should boil their drinking water until further notice. We have put out a nationwide call for portable restrooms since the sewer system will take months to repair."
+
+POWER
+
+"2020-04-08 13:39:00","Downtown","TVHostBrad","The electjhericitjhey wentjhe off in tjhehe following neighborhoods Old Town,Wilson Forestjhe,Scenic Vistjhea,Broadview"
+
+"2020-04-08 16:34:00","<Location with-held due to contract>","WileyPlateLupe_Cole","The emergency generator failed to start. Goldcare is on reroute until power can be restored. Power company is on scene working on the problem."
+
+"2020-04-09 07:00:00","<Location with-held due to contract>","TallPlatePaige","City EOC Press Conference; Electrical power has been restored to approximately 80% of the city. Internet service is also restored to most of the city. As we have seen in other disasters, the cell system is pretty resilient. Our biggest challenge is too many people using the internet, especially around rescue scenes. Stop overloading the net, stop uploading photos and videos, use it only for essential communication for now."
+
+COMMUNICATION
+
+"2020-04-08 10:15:00","<Location with-held due to contract>","FastLightWilliam","City EOC Public Information Officer: Our City computer system was damaged, so we our online system for reporting damage is temporarily out of service. Call 911 to report only life threatening damage, such as a potential landslide or serious flooding from a broken water main and Rumble for all other damage."
+
+"2020-04-08 12:30:00","Downtown","EmergencyManager","City Emergency Operations Center asks that everyone stay off their phones. You are overloading the system. Stop uploading videos. Also, stop calling the emergency number to report the earthquake. We know. Call if you have a life threatening emergency."
+
+"2020-04-08 13:43:00","Downtown","TVHostBrad","People in danger can't contact the emergency number. Do something @AlwaysSafePowerCompany"
+
+
+MEDICAL
+
+"2020-04-08 14:25:00","<Location with-held due to contract>","FastLLight98","City Health Department: Do not go to the hospital for minor injuries or illness. Also, we are establishing blood donation stations at the libraries in neighborhoods 6, 11, and 13. Please donate."
+"2020-04-08 14:28:00","Downtown","TVHostBrad","We have one hospital that is functional right now. Roads are damage, and the situation is still critical. Stay Safe"
+
+"2020-04-08 15:01:00","Downtown","TVHostBrad","Patients are being transported to the hospital near me. I can see the hospital from my window. Patients can be numbered in hundreds."
+
+"2020-04-09 10:30:00","<Location with-held due to contract>","BusyBradleyPlate","Department of Public Health: We have had several confirmed reports of Listeria outbreaks. While everyone appreciates the community stepping up and providing food to survivors and rescuers, safe food handling guidance must be followed. Starting tomorrow our food inspectors will refocus on community based feeding efforts."
+
+"2020-04-09 10:30:00","Downtown","HealthDept","We an outbreak of food poisoning. Listeria. We have traced it back to the volunteer kitchens that were set up. Please remember to follow food preparation guidelines when serving food!"
+
+FIRE
+
+"2020-04-08 10:02:00","Oak Willow","ReginaBusyL","St. Himark Fire Department is battling multiple structural fires. Low water pressure hindering them."
+
+"2020-04-08 14:00:00","Easton","James14W","Fire Command reports all major fires are under control. All citizens are asked to be cautious with candles during the power outage"
+"2020-04-08 14:11:00","Scenic Vista","ChloeJohnson","Oh my god a house nearby is burning! Whereís tghehe fire departghementghe?!"
+
+
+"2020-04-10 02:30:00","<Location with-held due to contract>","FastArmstrongBowl65"," Fire department has reponded to three separate incidents involving carbon monoxide poisoning. Do not use grills or similar to heat your home. Please be careful."
+
+RESCUE TEAMS
+
+"2020-04-08 09:15:00","Old Town","TallCCouch","No firefighters or cops! Citizen rescue teams are carrying the load - pitch in!"
+
+"2020-04-08 11:46:00","Palace Hills","ObnoxiousOHouse","Everyone in Neighborhood 1 who wants to join our rescue task force meet at the community center. We will probably head to neighborhood 9. Bring tools, food, water, blankets."
+
+"2020-04-09 02:00:00","Downtown","Emergency Manager","The Federal Disaster Response Team has started to arrive. 12 teams are on the way soon. Where to send them will be a send them will be a challenge"
+"2020-04-09 02:00:00","<Location with-held due to contract>","LazyCouchElvin_Ottesen","City EOC: Federal Building Rescue advance team just arrived. They are here to plan for the arrival of 12 Federal Building Rescue teams who are trained and equipped to rescue people trapped in collapsed buildings. Determining where to send these and other specialized teams will be difficult."
+
+"2020-04-09 04:30:00","Easton","CleverKomulaIcecream40","KRAK TV: Incredible Construction is helping rescue indivuduals trapped in collapsed buildings.'We called them as soon as we saw that cranes and other construction equipment would be needed.' Officials are directing construction companies to contact any fire station about helping out. "
+
+"2020-04-10 00:00:00","Downtown","KRAKTV","Local rescuers welcome the arrival of federal teams trained in how to rescue people trapped in collapsed buildings. #Haterescue"
+
+WEATHER
+
+"2020-04-08 19:05:00","Downtown","KRAKTV","Our weather forecast is calling for heavy rains starting on the morning of the 10th and continuing throughout the day and into the evening. This will effect rescue operations"
+
+"2020-04-08 19:05:00","<Location with-held due to contract>","WalterBear25","KRAK TV: We tracking a major low pressure system headed our way. Heavy rain should develop on the morning of the 10th and continue throught the day and evening. Too early to estimate totals, but it could be significant. Looks our rainy season arrives early this year. This will hinder responders."
+
+
+FOOD
+
+"2020-04-08 21:30:00","<Location with-held due to contract>","Jennifer16M","KRAK TV: Grocery store shelves are bare all around the city. People are stocking up and with the bad roads the warehouses cant easily resupply the grocery stores, especially in those areas that have been hardest hit."
+
+"2020-04-09 08:00:00","Oak Willow","LovesDavidDog","KRAK TV Officials are worried about food shortages, not just here but across the nation. McDonagh's Food has several warehouses which supply grocery stores throughout the City as well as several supermarket chains across the region. 'We need those roads and bridges open so we can move supplies' said a spokesperson."
+
+"2020-04-10 05:00:00","Old Town","HoldsRuby_BrewerLion","Riggatoni's Pizza is providing free pizza to the rescuers in Neightborhood 3."
+
+SOCIAL
+
+"2020-04-08 23:30:00","East Parton","TallBreadAnnette","KRAK TV: Family and friends of missing oved ones are holding a vigil at a makeshift bulletin board located at the statue of St. Himark founder Joseph Kibble where pictures have been posted of those who are missing. "
+
+"2020-04-08 23:30:00","Southwest","CuriousPlateJohn_Paine","KRAK TV: St Himark police chief is frustrated over the complaints about the building inspection process. 'We are enforcing the red tags to keep people from getting killed. Those buildings are unsafe and could collapse at any time'. The chief said riots could break out if something isnt done."
+
+"2020-04-09 00:08:00","Downtown","TVHostBrad","Civilians are upset and angry at the city, who can blame them?"
+
+"2020-04-09 08:09:00","Downtown","TVHostBrad","prices are going up and there is not help from the government for people in need of food and water"
+
+"2020-04-09 18:30:00","Terrapin Springs","ECleverF","KRAK TV Hardy Conzumer, spokesperson for Buy Now Pay Later Shopping Centers in 1, 11, 18 neighborhoods called upon the Mayor to reconsider his priorities when considering where to repair and rebuild first. 'Our malls are the economic engine of this economy and every day they are not open means millions of dollars lost.' The Buy Now Pay Later Shopping Center company was the largest contributor to the Mayor's reelection campaign..."
+
+"2020-04-10 09:00:00","<Location with-held due to contract>","WFuriousL","KRAK TV: Lakci Dasicle and several other celebrities will perform tonight at the Union Hall in neighborhood 13. Free concert, rain or shine!"

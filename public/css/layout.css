@@ -1,0 +1,295 @@
+#map {
+    text-align: center;
+    width: 55%;
+    height: calc(100% - 100px);
+    z-index: 2;
+    right: 0;
+    top:0;
+    margin-top:200px;
+    position: fixed;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+#map svg polygon:hover {
+    /* fill: #c3d8ed !important; */
+    opacity: 0.6;
+}
+
+#map svg polygon.active {
+    fill: steelblue;
+}
+
+#map svg polygon.chosen {
+    fill: steelblue !important;
+    opacity: 0.6;
+}
+
+#map svg polygon {
+    cursor: pointer;
+    transition: opacity 0.3s ease-in, fill 0.2s linear;
+}
+
+#map svg polygon:not(.active) {
+    opacity: 0.2;
+}
+
+#map .district_label {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    transition: opacity 0.3s linear, fill 0.2s linear;
+    fill: #000;
+}
+
+#map .district_label:not(.active) {
+    opacity: 0.03;
+}
+
+#map .district_label.white {
+    fill: #fff;
+}
+
+#map .label {
+    transition: opacity 0.3s linear;
+}
+
+#map .label:not(.active) {
+    opacity: 0.03;
+}
+
+#map circle {
+    transition: opacity 0.3s linear;
+}
+
+#map circle:not(.active) {
+    opacity: 0.03;
+}
+
+#map img {
+    width: 240px;
+    position: fixed;
+    bottom: 115px;
+    left: 530px;
+    background: #fff;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 12px;
+    display: none;
+}
+
+#map img.show {
+    display: block;
+}
+
+#time {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #ddd;
+}
+
+#time .title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#time svg {
+    width: 100%;
+    display: block;
+}
+
+#time .line {
+    fill: url(#area-gradient);                  
+    stroke-width: 0px;          
+    -webkit-clip-path: url(#clip);
+            clip-path: url(#clip);
+}
+
+#sunburst{
+    position: fixed;
+    margin-left:100px;
+    margin-top:40px;
+}
+
+.subtitle {
+    position:fixed;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top:-30px;
+    margin-bottom: 50px;
+}
+
+#wordcloud, #hashtagcloud {
+    position:fixed;
+    margin-top:620px;
+    margin-left:40px;
+}
+
+#hashtagcloud{
+    margin-left:450px;
+}
+
+/* Chordchart locations */
+
+#chord{
+    margin-top:-90px;
+}
+
+#PalaceHills{
+    margin-top:10px;
+    margin-left:90px;
+}
+
+
+#Northwest{
+    margin-left:-250px;
+    margin-top:-20px;
+}
+
+#OldTown{
+    margin-left:-250px;
+    margin-top:-40px;
+}
+
+#SafeTown{
+    margin-left:-250px;
+    margin-top:-10px;
+}
+
+#Southwest{
+    margin-left:-450px;
+    margin-bottom:-330px;
+}
+
+#Downtown{
+    margin-left:-1050px;
+    margin-bottom:-170px;
+}
+
+#WilsonForest{
+    margin-left:1120px;
+    margin-top:-260px;
+}
+
+#Broadview{
+    margin-left:-250px;
+    margin-bottom:-750px;
+}
+
+#Chapparal{
+   margin-left:850px;
+   margin-bottom:-720px;
+}
+
+#PepperMill{
+    margin-left:1120px;
+    margin-top:-300px;
+}
+
+#ScenicVista{
+    margin-left:1120px;
+    margin-bottom:-520px;
+
+}
+
+#TerrapinSprings{
+    margin-left:1050px;
+    margin-bottom:-700px;
+}
+
+
+#Cheddarford{
+   margin-left:1120px;
+   margin-top: -760px;
+}
+
+#Easton{
+   margin-left:920px;
+   margin-top:-700px;
+   margin-bottom:500px;
+}
+
+#Weston{
+   margin-left:-450px;
+   margin-bottom:-500px;
+}
+
+#Southton{
+   margin-left:-450px;
+   margin-bottom:-670px;
+}
+
+#OakWillow{
+   margin-left:-260px;
+   margin-bottom:-750px;
+}
+
+#EastParton{
+   margin-left:900px;
+   margin-top:-1200px;
+   margin-bottom:700px;
+}
+
+#WestParton{
+   margin-left:-270px;
+   margin-bottom:-750px;
+}
+
+#chordLegend{
+    margin-left:600px;
+}
+
+#mapLegend{
+    margin-bottom:350px;
+    margin-left:100px;
+}
+
+/********** NAVBAR *************/
+.fa-heart{
+    color: #F74933;
+}  
+
+.space-100{
+    height: 100px;
+    display: block;
+}
+
+pre.prettyprint{
+    background-color: #ffffff;
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.atv, .str{
+    color: #05AE0E;
+}
+
+.tag, .pln, .kwd{
+    color: #3472F7;
+}
+
+.atn{
+    color: #2C93FF;
+}
+
+.pln{
+    color: #333;
+}
+
+.com{
+    color: #999;
+} 
