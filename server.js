@@ -79,6 +79,8 @@ io.on('connection', function(socket) {
   });
 });
 
-http.listen(80, function() {
-   console.log('listening on *:80');
+const PORT = process.env.PORT || 3000;
+
+http.listen(PORT, function() {
+   console.log('listening on *:' + PORT);
 });
